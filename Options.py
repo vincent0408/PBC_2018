@@ -7,7 +7,7 @@ def create_window(s1, s2, txt):
     root.title("問題")
     
     frame = Frame(root)
-    lbl = Label(frame, text = txt, font = ("Microsoft Jhenghe", 18), bg = "orange")
+    lbl = Label(frame, text = txt, font = ("Microsoft Jhenghe", 18), bg = "white")
     frame.pack(fill = "both", expand = "true")
     lbl.pack(fill = "both", expand = "true")
 
@@ -20,6 +20,7 @@ def create_window(s1, s2, txt):
     width = root.winfo_screenwidth() / 2 - root.winfo_reqwidth()
     height = root.winfo_screenheight() / 2 - root.winfo_reqheight()
     root.geometry("+%d+%d" % (width, height))
+    root.resizable(width = False, height = False)
 
     root.mainloop()
     

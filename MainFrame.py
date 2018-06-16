@@ -1,5 +1,5 @@
 from tkinter import *
-import Button as bt
+
 
 root = Tk()
 
@@ -49,7 +49,7 @@ Frame3.grid_propagate("false")
 # text box for Frame2
 Frame2.grid_rowconfigure(0, weight=1)
 Frame2.grid_columnconfigure(0, weight=1)
-txt = Text(Frame2, bg = "yellow", font  = ("Microsoft Jhenghe", 20), wrap = WORD)
+txt = Text(Frame2, bg = "white", font  = ("Microsoft Jhenghe", 20), wrap = WORD)
 txt.grid(sticky = W+S+N)
  
 # button 
@@ -62,9 +62,9 @@ next_button.grid(row = 0, column = 1, sticky = N+E+S)
 #scroll.grid(row = 0, column = 0, sticky = E+S+N)
 
 # label for Frame1, Frame 3
-lbl1 = Label(Frame1, bg = "orange", width = 600, height = 500)
+lbl1 = Label(Frame1, bg = "white", width = 600, height = 500)
 lbl1.grid(sticky = W+S+N+E)
-lbl3 = Label(Frame3, bg = "blue", width = 300, height = 500)
+lbl3 = Label(Frame3, bg = "white", width = 300, height = 500)
 lbl3.grid(sticky = W+S+N+E)
 img = PhotoImage(file = "./pics/city.gif")
 lbl1["image"] = img
@@ -74,18 +74,10 @@ lbl1["image"] = img
 #txt["yscrollcommand"] = scroll.set
 
 # button command
-event_controller = bt.Event()
-next_button["command"] = lambda: bt.Event.conbined_function([txt, lbl1, lbl3])
+
+#next_button["command"] = lambda: bt.Event.conbined_function([txt, lbl1, lbl3])
 
 
 
-
-
-
-
-
-
-
-window.mainloop()
 
 

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>99d9dc7d-02a7-43ed-b448-d28884869cf8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MainFrame.py</StartupFile>
+    <StartupFile>Buttons.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,13 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Button.py" />
+    <Compile Include="Buttons.py" />
     <Compile Include="MainFrame.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="musicandbg.py" />
     <Compile Include="Options.py" />
-    <Compile Include="Window.py" />
     <Compile Include="PBC_3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
