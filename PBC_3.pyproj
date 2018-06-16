@@ -26,6 +26,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="musicandbg.py" />
+    <Compile Include="Options.py" />
     <Compile Include="Window.py" />
     <Compile Include="PBC_3.py" />
   </ItemGroup>
