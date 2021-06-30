@@ -1,2 +1,5 @@
-# PBC_2018
-PBC_2018 Spring Final Project
+# 小尾牙爆笑劇遊戲 
+
+將小尾牙爆笑劇從舞台劇轉成Python RPG遊戲
+
+玩家扮演主角，重溫如何西天取「精」
